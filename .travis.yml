@@ -3,5 +3,6 @@ osx_image: xcode8
 
 install:
 - carthage bootstrap --no-use-binaries --platform mac
+
 script:
 - echo "Yeah"
